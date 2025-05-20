@@ -1,0 +1,253 @@
+/* root = definir variaveis*/
+/* cor azul: #03045E 
+marrom feio: #474306
+amarelo texto: #F5EE84
+amarelo fundo: #FBF8CC*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --primary:#440b1f  ;
+    --secondary:#470626 ;
+    --tertiary:#ff609a ;
+    --background:#ffd2e2 ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background);
+    font-family: poppins, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px auto;
+}
+
+header .name{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+header .menu ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    
+
+}
+
+header .menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--primary);
+}
+
+header .social-menu ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+header .social-menu img{
+    width: 26px;
+}
+
+main{
+    width: 85%;
+    margin: 150px auto;
+}
+
+main .profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main .profile .job-area{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: var(--primary);
+}
+
+main .job-area span{
+    font-size: 28px;
+}
+
+main .job-area h1{
+    font-size: 100px;
+    line-height: 1.16;
+}
+
+main .job-area a{
+    border: 1px solid var(--secondary);
+    border-radius: 6px;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main .job-area a:hover{
+    position: relative;
+    left: 8px;
+    top: 8px;
+}
+
+main .job-area a .background-layer :hover{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: var(--tertiary);
+    border-radius: 8px;
+    left: 8px;
+    top: 8px;
+    z-index: -1;
+}
+
+main .job-area .background-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--tertiary);
+    border-radius: 8px;
+    left: 8px;
+    top: 8px;
+    z-index: -1;
+}
+
+main .photo{
+    width: 500px;
+}
+
+main .about{
+    margin-top: 100px;
+    color: var(--tertiary);
+    font-family: poppins, sans-serif;
+    font-size: 100px;
+}
+
+main .paragrafo{
+    font-family: poppins, sans-serif;
+    font-size: 24px;
+    color: var(--primary);
+}
+
+
+main .listam{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .lista{
+    color: var(--primary);
+    font-family: poppins, sans-serif;
+    font-size: 24px;
+}
+
+.lista li{
+    margin-top: 145px;
+}
+
+main .work{
+    color: var(--tertiary);
+    font-family: poppins, sans-serif;
+    font-size: 100px;
+    margin-top: 183px;
+}
+
+main .divisao2 .workP{
+    display: flex;
+    flex-direction: column;
+}
+
+main .workP{
+    font-family: poppins, sans-serif;
+    font-size: 24px;
+    color: var(--primary);
+}
+
+main .fotos{
+    margin-top: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .fotosP img{
+    width: 560px;
+}
+
+main .rodape{
+    display: flex; 
+    justify-content: space-between;
+}
+
+main .rodape span{
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+    color: var(--primary);
+}
+
+main .paraa{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+main .paraa h4{
+    font-size: 24px;
+}
+
+main .paraa span{
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+    color: var(--primary);
+}
+
+main .contact{
+    color: var(--tertiary);
+    font-family: poppins, sans-serif;
+    font-size: 100px;
+    margin-top: 183px;
+}
+
+main .divisao3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 49px;
+}
+
+main .fotosX img{
+    width: 440px;
+}
+
+main .contactP{
+    font-family: poppins, sans-serif;
+    font-size: 24px;
+    color: var(--primary);
+}
+
+main .fim{
+    font-family: poppins, sans-serif;
+    font-size: 24px;
+    color: var(--primary);
+}
